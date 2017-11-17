@@ -61,7 +61,7 @@ a {
 }
 
 a:active {
-	color: #f00;
+	color: #f11;
 }
 
 
@@ -96,3 +96,6 @@ a:active {
 	margin-bottom: 0;
 }
 
+.footer {
+	font-size: 0.75em;
+}
