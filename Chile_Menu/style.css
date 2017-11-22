@@ -140,6 +140,11 @@ a:active {
 	line-height: 30px;
 }
 
+.footer a {
+	color: #fafafa;
+	text-align: center;
+}
+
 
 /* SCREEN SIZES */
 
@@ -202,6 +207,7 @@ a:active {
 
 	.footer {
 		line-height: 40px;
+		font-size: 13px
 	}
 
 }
