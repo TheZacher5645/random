@@ -56,7 +56,7 @@ for (let i = 0; i < tf.length; i++) {
 }
 
 transitionNum = 0
-setTimeout(
+// setTimeout(
 	setInterval(function() {
 
 		let localtf = tf[transitionNum]
@@ -68,4 +68,4 @@ setTimeout(
 
 		}
 	}, offset)
-,holdTime);
+// ,holdTime);
