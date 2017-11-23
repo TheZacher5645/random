@@ -17,6 +17,24 @@
 	position: absolute;
 }
 
+.hidden {
+	opacity: 0;
+	z-index: 0;
+}
+
+.from {
+	opacity: 1;
+	z-index: 0;
+}
+
+.to {
+	opacity: 1;
+	z-index: 1;
+	transition-timing-function: linear;
+	-webkit-transition: opacity 3s;
+	transition: opacity 3s;
+}
+
 @media only screen and (min-width: 600px)  {
 
 	#container {
