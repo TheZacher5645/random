@@ -198,11 +198,17 @@ a:active {
 		grid-template-rows: 120 auto auto 40;
 	}
 
+	.header {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
 	.tabs {
 		flex-direction: column;
 		padding: 3px 0;
 		align-self: start;
 		margin-top: 10px;
+		margin-right: 10px;
 	}
 
 	.tab {
