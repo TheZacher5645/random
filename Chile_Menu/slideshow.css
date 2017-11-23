@@ -1,0 +1,26 @@
+#container {
+	min-width: 400px;
+	width: 72vh;
+	height: 64vh;
+	border: solid #000 3px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#container > .i {
+	min-width: 400px;
+	width: 72vh;
+	height: inherit;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+}
+
+@media only screen and (min-width: 600px)  {
+
+	#container {
+		height: 49vh;
+	}
+
+}

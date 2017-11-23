@@ -162,20 +162,26 @@ a:active {
 @media only screen and (min-width: 600px)  {
 
 	.main {
+		grid-template-areas:
+		"header"
+		"."
+		"tabs"
+		"body"
+		"footer";
 		grid-column-gap: 10px;
 		grid-template-columns: auto;
-		grid-template-rows: 100 40 auto 30;
+		grid-template-rows: 100 10 40 auto 30;
 		min-height: 100%;
 		align-content: stretch;
 	}
 
 	.tabs {
 		flex-direction: row;
-		padding: 0 2px;
+		padding: 0 3px;
 	}
 
 	.tab {
-		margin: 0 2px;
+		margin: 0 3px;
 	}
 
 }
@@ -196,6 +202,7 @@ a:active {
 		flex-direction: column;
 		padding: 3px 0;
 		align-self: start;
+		margin-top: 10px;
 	}
 
 	.tab {
