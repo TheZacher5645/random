@@ -151,6 +151,7 @@ ul {
 
 .menu {
 	padding-top: 1em;
+	min-width: 360px;
 }
 
 .menu > ul {
@@ -210,6 +211,10 @@ ul {
 	.header {
 		margin: 10px;
 		margin-bottom: 0;
+		background-image: url("images/star header.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position-x: calc(100% - 17px);
 	}
 
 	.tabs {
@@ -222,10 +227,16 @@ ul {
 		margin: 0 3px;
 	}
 
+	.tab > div {
+		background-image: url("images/tab short.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+
 	.body {
 		border: solid #0000001a 3px;
 		margin-top: 6px;
-		min-width: 350px;
 	}
 
 	.footer {
@@ -267,6 +278,7 @@ ul {
 
 	.tab > div {
 		font-size: 1.2em;
+		background-image: url("images/tab long.png");
 	}
 
 	.body {
