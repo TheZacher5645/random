@@ -190,7 +190,7 @@ ul {
 	"body"
 	"footer";
 	grid-template-columns: auto;
-	grid-template-rows: 120 auto auto auto;
+	grid-template-rows: auto auto auto auto;
 }
 
 @media only screen and (min-width: 600px)  {
@@ -203,7 +203,7 @@ ul {
 		"footer";
 		grid-column-gap: 10px;
 		grid-template-columns: auto;
-		grid-template-rows: 100 60 auto 30;
+		grid-template-rows: auto 60px 1fr 30px;
 		min-height: 100%;
 		align-content: stretch;
 	}
@@ -228,11 +228,11 @@ ul {
 	}
 
 	.tab > div {
-		background-image: url("images/tab short.png");
-		background-size: contain;
-		background-repeat: no-repeat;
+		background-image: url("images/tab short left.png");
+		background-size: contain, contain;
+		background-repeat: no-repeat, no-repeat;
+		background-position-x: 0, 100%;
 	}
-	
 
 	.body {
 		border: solid #0000001a 3px;
@@ -253,8 +253,8 @@ ul {
 		"body tabs"
 		"body tabs"
 		"footer footer";
-		grid-template-columns: auto 400px;
-		grid-template-rows: 120 auto auto 40;
+		grid-template-columns: 1fr 400px;
+		grid-template-rows: auto 1fr 1fr 40px;
 	}
 
 	.header {
@@ -278,7 +278,7 @@ ul {
 
 	.tab > div {
 		font-size: 1.2em;
-		background-image: url("images/tab long.png");
+		background-image: url("images/tab long left.png"), url("images/tab long right.png");
 	}
 
 	.body {
