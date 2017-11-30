@@ -86,7 +86,7 @@ ul {
 .main {
 	display: grid;
 	background: floralwhite;
-	width: 97%;
+	max-width: 2560px;
 	margin: 0 auto;
 	margin-bottom: 0;
 }
