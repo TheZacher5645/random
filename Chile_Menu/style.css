@@ -79,6 +79,14 @@ ul {
 	margin-left: 1em;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0.25em 1em;
+}
+
 
 
 /* GRID STUFF */
