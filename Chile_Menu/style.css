@@ -248,7 +248,7 @@ td {
 	}
 
 	.footer {
-		margin: 0 calc((100% - 100vw)/2)
+		margin: 0;
 	}
 
 }
