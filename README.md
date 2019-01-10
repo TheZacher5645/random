@@ -3,4 +3,4 @@
 
 [8th Grade Menu Project](https://thezacher5645.github.io/random/Chile_Menu/)
 
-[(WIP) CycloArt](https://thezacher5645.github.io/random/CycloArt)
+[(WIP) CycloArt](https://thezacher5645.github.io/random/cycloart)
